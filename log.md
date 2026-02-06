@@ -10,3 +10,6 @@
 - Learned how to use function keys on Mac (`fn` + `F5`).
 - Found "Preferences" menu under the pgAdmin 4 tab.
 - Checked documentation of pgadmin4
+## 2026年2月6日
+- Learned SELECT/FROM, DISTINCT, COUNT, WHERE syntacs.
+- Understood what is parens/parenthesis and Operators.
