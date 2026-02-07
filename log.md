@@ -13,3 +13,5 @@
 ## 2026年2月6日
 - Learned SELECT/FROM, DISTINCT, COUNT, WHERE syntacs.
 - Understood what is parens/parenthesis and Operators.
+## 2026年2月７日
+- day off
