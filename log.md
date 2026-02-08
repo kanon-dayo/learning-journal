@@ -15,3 +15,5 @@
 - Understood what is parens/parenthesis and Operators.
 ## 2026年2月７日
 - day off
+## 2026年2月8日
+- Learned ORDER BY, and LIMIT
