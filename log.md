@@ -17,3 +17,4 @@
 - day off
 ## 2026年2月8日
 - Learned ORDER BY, and LIMIT
+- upload github via terminal.
