@@ -20,3 +20,5 @@
 - upload github via terminal.
 ## 2026年2月９日
 - day off
+## 2026年2月10日
+- Case-insensitive: Does not distinguish between uppercase and lowercase letters (e.g., 'A' and 'a' are treated as the same).
