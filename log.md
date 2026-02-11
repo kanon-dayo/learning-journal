@@ -21,4 +21,6 @@
 ## 2026年2月９日
 - day off
 ## 2026年2月10日
-- Case-insensitive: Does not distinguish between uppercase and lowercase letters (e.g., 'A' and 'a' are treated as the same).
+- Case-insensitive: Does not distinguish between uppercase and lowercase letters (e.g., 'A' and 'a' are treated as the same).　
+## 2026/2/11
+- Learned AVG() and ROUND(): Use ROUND(value, n) to limit decimal places for better readability.
