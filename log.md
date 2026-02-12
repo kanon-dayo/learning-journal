@@ -24,3 +24,8 @@
 - Case-insensitive: Does not distinguish between uppercase and lowercase letters (e.g., 'A' and 'a' are treated as the same).　
 ## 2026/2/11
 - Learned AVG() and ROUND(): Use ROUND(value, n) to limit decimal places for better readability.
+## 2026/2/12
+- 'GROUP BY' the most basic syntex would be like below.
+- the most syntex would be like SELECT category_col, AGG(data_col)FROM table GROUP BY category_col;
+- Practiced GROUP BY with aggregate functions (SUM, AVG).
+- GROUP BY Rule: Any column in the SELECT clause that is not an aggregate function (like SUM or AVG) must be present in the GROUP BY clause.
