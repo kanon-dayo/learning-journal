@@ -29,3 +29,5 @@
 - the most syntex would be like SELECT category_col, AGG(data_col)FROM table GROUP BY category_col;
 - Practiced GROUP BY with aggregate functions (SUM, AVG).
 - GROUP BY Rule: Any column in the SELECT clause that is not an aggregate function (like SUM or AVG) must be present in the GROUP BY clause.
+## 2026/2/13
+- dayoff
