@@ -31,3 +31,6 @@
 - GROUP BY Rule: Any column in the SELECT clause that is not an aggregate function (like SUM or AVG) must be present in the GROUP BY clause.
 ## 2026/2/13
 - dayoff
+## 2026/2/16
+- Mastered HAVING: Learned that WHERE filters rows before grouping, while HAVING filters groups after GROUP BY.
+- Ready for JOIN tomorrow to combine multiple tables!
