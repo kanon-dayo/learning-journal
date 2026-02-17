@@ -34,3 +34,6 @@
 ## 2026/2/16
 - Mastered HAVING: Learned that WHERE filters rows before grouping, while HAVING filters groups after GROUP BY.
 - Ready for JOIN tomorrow to combine multiple tables!
+## 2026/2/17
+- Logical Subtraction with JOIN: Used LEFT JOIN with WHERE B.id IS NULL to get rows present only in Table A.
+- It’s like taking the whole of A and subtracting the overlapping part with B.
