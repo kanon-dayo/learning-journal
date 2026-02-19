@@ -37,3 +37,6 @@
 ## 2026/2/17
 - Logical Subtraction with JOIN: Used LEFT JOIN with WHERE B.id IS NULL to get rows present only in Table A.
 - It’s like taking the whole of A and subtracting the overlapping part with B.
+## 2026/2/19
+- SQL Execution Order: FROM -> WHERE -> SELECT (AS).
+- Lesson: We cannot use aliases (AS) in WHERE because the nickname isn't created until the SELECT step.
