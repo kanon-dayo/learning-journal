@@ -40,3 +40,31 @@
 ## 2026/2/19
 - SQL Execution Order: FROM -> WHERE -> SELECT (AS).
 - Lesson: We cannot use aliases (AS) in WHERE because the nickname isn't created until the SELECT step.
+## 2026/2/22
+Topic: Mastered SQL Joins, Unions, and Logic Under Pressure
+1. SQL Execution Order & Aliases
+
+Learned that the AS operator executes late in the query flow.
+
+Insight: Aliases cannot be used in WHERE clauses because the "nickname" hasn't been created yet when the filter is applied.
+
+2. Deep Dive into FULL OUTER JOIN
+
+Used FULL OUTER JOIN with WHERE ... IS NULL to audit data integrity.
+
+Result: 0 rows found, logically proving a perfect match (1:1 or N:1) between my datasets.
+
+3. Join Symmetry & Strategy
+
+Understood that LEFT JOIN is non-symmetric. The table order defines the "Master" table.
+
+Learned to handle the "Ambiguous Column" error by explicitly referencing table names (e.g., actor.actor_id) when joining tables with identical column names.
+
+4. Multi-Table Chaining (Challenge Task)
+
+Successfully linked three tables (film ↔ film_actor ↔ actor) to filter specific movie titles by actor name.
+
+Achievement: Solved complex data relationships without needing subqueries (yet!).
+
+Today's Reflection:
+Even with PMS fatigue and a heavy brain, I pushed through. It took time, but I now have a solid mental model of how data "stacks" (UNION) versus how it "spreads" (JOIN).
